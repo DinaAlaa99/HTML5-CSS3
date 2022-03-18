@@ -62,14 +62,14 @@ hr {
     width: 100%;
     margin-bottom: 10px;
 }
-.Applify{
+.Appify{
     background-image: url("Appify.png");
 }
 .Sunflower{
-    background-image: url("sunflower.jpg");
+    background-image: url("Sunflower.png");
 }
-.Bukeh{
-    background-image: url("bukeh.jpg");
+.Bokeh{
+    background-image: url("Bukeh.png");
 }
 .featured a {
     font-size: 12px;
