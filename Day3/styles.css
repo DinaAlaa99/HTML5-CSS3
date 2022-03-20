@@ -3,74 +3,175 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: #000;
+    
     font-family: Monospaced, Tahoma, sans-serif;
-    color: #eee;
+
 }
-.bg {
+
+.b {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.flex, header {
+
+.flex,
+header {
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
 }
+
 .container {
     margin: auto;
-    background-color: #181a1b;
     padding: 20px;
     max-width: 1000px;
 }
+
 .logo {
-    background-image: url("icon.png");
+    background-image: url("logo.png");
     height: 70px;
     width: 70px;
 }
-.hr, .featured, header {
-    margin-bottom: 20px;
-}
-.banner-bg {
+
+
+
+.bottom {
     background-image: url("background.jpg");
     height: 300px;
     margin-bottom: 25px;
 }
+
 hr {
-    height: 5px;
-    background-color: #999;
+    height: 3px;
+   
 }
+
 .featured {
     margin-left: -20px;
     margin-right: -20px;
 }
+
 .featured h2 {
     margin-bottom: 15px;
     margin-left: 20px;
 }
-.item {
+
+.section {
     flex: 1;
     padding-left: 20px;
     padding-right: 20px;
     width: 32%;
 }
-.featured-item-bg {
-    
+
+.section1 {
+
     overflow: hidden;
     height: 150px;
     width: 100%;
     margin-bottom: 10px;
 }
-.Appify{
+
+.Appify {
     background-image: url("Appify.png");
 }
-.Sunflower{
-    background-image: url("Sunflower.png");
+
+.Sunflower {
+    background-image: url("sunflower.jpg");
 }
-.Bokeh{
-    background-image: url("Bukeh.png");
+
+.Bokeh {
+    background-image: url("bukeh.jpg");
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: Monospaced, Tahoma, sans-serif;
+   
+}
+
+.b{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flex,
+header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+
+.logo {
+    background-image: url("logo.png");
+    height: 70px;
+    width: 70px;
+}
+
+
+.featured,
+header {
+    margin-bottom: 20px;
+}
+
+.bottom {
+    background-image: url("background.jpg");
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+hr {
+    height: 5px;
+    
+}
+
+.featured {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.featured h2 {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.section{
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 32%;
+}
+
+.section1{
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Appify {
+    background-image: url("Appify.png");
+}
+
+.Sunflower {
+    background-image: url("sunflower.jpg");
+}
+
+.Bokeh {
+    background-image: url("bokeh.jpg");
+}
+
 .featured a {
     font-size: 12px;
     text-decoration: none;
@@ -78,9 +179,6 @@ hr {
     text-transform: lowercase;
     font-style: italic;
 }
-.featured a:hover {
-    color: #444;
-}
-.featured a:active, .featured a:focus {
-    color: #111;
-}
+
+
+
